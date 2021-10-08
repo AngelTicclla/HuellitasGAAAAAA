@@ -1,0 +1,164 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header {
+    background-image: url(../Img/Fondo_Principal.jpg);
+    background-position: center;
+    background-size: cover;
+  
+}
+
+
+.logo-empresa{
+min-width: 150px;
+max-width: 190px;
+margin-left: 60px;
+
+
+}
+
+.navbar{
+    background-color: #00ff00;
+    box-shadow: 5px 5px 10px;
+ 
+    padding-bottom: 0px;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.5));
+}
+.navbar ul li{
+    position: relative;
+    display: inline-block;
+    margin: 0 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.navbar li a::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color:#00ff00;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.4s ease-out;
+}
+.navbar li a:hover::before{
+    width: 100%;}
+a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contenedor{
+min-height: 35px;
+}
+.svg{
+    opacity: 40%;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.5));
+
+}
+
+.canvas_tamaño {
+    width: 40rem;
+}
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+}
+.emergencia_h1 {
+    font-size: 40px;
+}
+.btn_iniciar {
+    background-color:#E1E711!important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.contenedor_canvas{
+    padding: 200px;
+    margin: auto;
+}
+.canvas_tamaño {
+    width: 40rem;
+    border-top: 20px solid green;
+height: 60rem;
+}
+.logo_registro {
+
+
+    margin-left: 150px;
+}
+.btn_registro{
+    background-color: green !important;
+}
+.title_registro{
+    font-size: 25px;
+}
+#bg-contactos{
+    position: relative;
+    top: -120px;
+}
+#seccion-contacto{
+    background-color:#1b2a4e;
+    min-height: 500px;
+    position: relative;
+
+}
+    
+@media(max-width:768px) {
+    #bg-contacto{
+       
+        top: -110px;
+    
+    }
+}
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:white;
+    border-radius: 20px;
+    max-width: 500px;
+}
+.tituloformulario{
+    color: black;
+}
+.img-doctor{
+
+height: 500px;
+width: 800px;
+margin-left: 10PX;
+
+}
+.img-pancho{
+height: 500px;
+width: 700px;
+}
+.img-doctora{
+
+    height: 600px;
+    width: 1500px;
+}
+
+.img-nosotros{
+   
+    left: 25%;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 100%;
+}
+.img-doctor2{
+height: 420px;
+width: 400px;
+
+}
+.img-diseño:before {
+    background-color: black;
+}
+
+.horarios_p ul li {
+    color: white;
+}
